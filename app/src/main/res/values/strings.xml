@@ -1,0 +1,23 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category name for songs in Spanish [CHAR LIMIT=20] -->
+    <string name="share">TODO</string>
+
+    <!-- Category name for songs in Spanish [CHAR LIMIT=20] -->
+    <string name="category_spanish">Spanish Songs</string>
+
+    <!-- Category name for songs in English [CHAR LIMIT=20] -->
+    <string name="category_english">English Songs</string>
+
+    <!-- Category name for songs in Movies [CHAR LIMIT=20] -->
+    <string name="category_movies">Movies Songs</string>
+
+    <!-- Category name for songs in Movies [CHAR LIMIT=20] -->
+    <string name="category_song">Songs</string>
+
+    <!-- Category detail of songs [CHAR LIMIT=20] -->
+    <string name="category_detail">Now Playing</string>
+
+</resources>
