@@ -20,10 +20,10 @@ public class MovieActivity extends AppCompatActivity {
 
         //Create a array of words
         final ArrayList<Singer> singers = new ArrayList<>();
-        singers.add(new Singer("The Greatest showman", "The Greatest showman", R.drawable.greatest_showman));
-        singers.add(new Singer("My Little Pony The movie", "My Little Pony The movie", R.drawable.my_little_pony));
-        singers.add(new Singer("Coco The movie", "Coco The movie", R.drawable.coco));
-        singers.add(new Singer("Favorite Movies", "None", R.drawable.favorite));
+        singers.add(new Singer("The Greatest showman", "The Greatest showman", R.drawable.greatest_showman2));
+        singers.add(new Singer("My Little Pony The movie", "My Little Pony The movie", R.drawable.my_little_pony2));
+        singers.add(new Singer("Coco The movie", "Coco The movie", R.drawable.coco2));
+        singers.add(new Singer("Favorite Movies", "None", R.drawable.favorite2));
 
         //Create the SingerAdapter
         SingerAdapter itemAdapter = new SingerAdapter(this, singers);
@@ -41,8 +41,8 @@ public class MovieActivity extends AppCompatActivity {
                 Bundle extra = new Bundle();
                 extra.putString("Singer",singers.get(i).getArtist());
                 extra.putString("Album",singers.get(i).getAlbum());
-                Log.v("NumberActivity", "Word at index 0: " + singers.get(i).getArtist());
-                Intent appInfo = new Intent(MovieActivity.this, songsActivity.class);
+                //Log.v("NumberActivity", "Word at index 0: " + singers.get(i).getArtist());
+                Intent appInfo = new Intent(MovieActivity.this, SongsActivity.class);
                 appInfo.putExtras(extra);
                 startActivity(appInfo);
             }

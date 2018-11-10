@@ -23,25 +23,25 @@ public class DetailActivity extends AppCompatActivity {
         //create a array of words
         ArrayList<Detail> details = new ArrayList<>();
         if (artist.equals("Ha Ash")){
-            details.add(new Detail(album,R.drawable.ha_ash, song, artist));
+            details.add(new Detail(album,R.drawable.ha_ash2, song, artist));
         }else if (artist.equals("Matisse")) {
-            details.add(new Detail(album,R.drawable.matisse, song, artist));
+            details.add(new Detail(album,R.drawable.matisse2, song, artist));
         }else if (artist.equals("Carlos Rivera")) {
-            details.add(new Detail(album,R.drawable.carlos_rivera, song, artist));
+            details.add(new Detail(album,R.drawable.carlos_rivera2, song, artist));
         }else if (artist.equals("Carlos Rivera")) {
-            details.add(new Detail(album,R.drawable.carlos_rivera, song, artist));
+            details.add(new Detail(album,R.drawable.carlos_rivera2, song, artist));
         }else if (artist.equals("Sia")) {
-            details.add(new Detail(album,R.drawable.sia, song, artist));
+            details.add(new Detail(album,R.drawable.sia2, song, artist));
         }else if (artist.equals("Maroon 5")) {
-            details.add(new Detail(album,R.drawable.maroon5, song, artist));
+            details.add(new Detail(album,R.drawable.maroon5_v, song, artist));
         }else if (artist.equals("Linking Park")) {
-            details.add(new Detail(album,R.drawable.linking_park, song, artist));
+            details.add(new Detail(album,R.drawable.linkin_park, song, artist));
         }else if (artist.equals("The Greatest showman")) {
-            details.add(new Detail(album,R.drawable.greatest_showman, song, artist));
+            details.add(new Detail(album,R.drawable.greatest_showman2, song, artist));
         }else if (artist.equals("My Little Pony The movie")) {
-            details.add(new Detail(album,R.drawable.my_little_pony, song, artist));
+            details.add(new Detail(album,R.drawable.my_little_pony2, song, artist));
         }else if (artist.equals("Coco The movie")) {
-            details.add(new Detail(album,R.drawable.coco, song, artist));
+            details.add(new Detail(album,R.drawable.coco2, song, artist));
         }
 
         //Create the detailAdapter

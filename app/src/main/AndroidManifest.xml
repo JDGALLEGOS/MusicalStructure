@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="@string/main_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,15 +18,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".SpanishActivity"
-            android:label="@string/category_spanish"/>
+            android:label="@string/category_spanish"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".EnglishActivity"
-            android:label="@string/category_english"/>
+            android:label="@string/category_english"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MovieActivity"
-            android:label="@string/category_movies"/>
-        <activity android:name=".songsActivity"
-            android:label="@string/category_song"/>
+            android:label="@string/category_movies"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SongsActivity"
+            android:label="@string/category_song"
+            android:parentActivityName=".SongsActivity"/>
         <activity android:name=".DetailActivity"
-            android:label="@string/category_detail"/>
+            android:label="@string/category_detail"
+            android:parentActivityName=".DetailActivity"/>
 
     </application>
 

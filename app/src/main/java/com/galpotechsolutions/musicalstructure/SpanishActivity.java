@@ -21,10 +21,10 @@ public class SpanishActivity extends AppCompatActivity {
 
         //Create a array of words
         final ArrayList<Singer> singers = new ArrayList<>();
-        singers.add(new Singer("Ha Ash", "Primera Fila", R.drawable.ha_ash));
-        singers.add(new Singer("Matisse", "Por tu bien", R.drawable.matisse));
-        singers.add(new Singer("Carlos Rivera", "El Hubiera No Existe", R.drawable.carlos_rivera));
-        singers.add(new Singer("Favorite Spanish", "None", R.drawable.favorite));
+        singers.add(new Singer("Ha Ash", "Primera Fila", R.drawable.ha_ash2));
+        singers.add(new Singer("Matisse", "Por tu bien", R.drawable.matisse2));
+        singers.add(new Singer("Carlos Rivera", "El Hubiera No Existe", R.drawable.carlos_rivera2));
+        singers.add(new Singer("Favorite Spanish", "None", R.drawable.favorite2));
 
         //Create the SingerAdapter
         SingerAdapter itemAdapter = new SingerAdapter(this, singers);
@@ -43,7 +43,7 @@ public class SpanishActivity extends AppCompatActivity {
                 extra.putString("Singer",singers.get(i).getArtist());
                 extra.putString("Album",singers.get(i).getAlbum());
                 //Log.v("NumberActivity", "Word at index 0: " + singers.get(i).getArtist());
-                Intent appInfo = new Intent(SpanishActivity.this, songsActivity.class);
+                Intent appInfo = new Intent(SpanishActivity.this, SongsActivity.class);
                 appInfo.putExtras(extra);
                 startActivity(appInfo);
             }

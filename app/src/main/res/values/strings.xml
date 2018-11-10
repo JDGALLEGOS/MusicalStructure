@@ -2,6 +2,9 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Musical Structure</string>
 
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="main_activity">Genders</string>
+
     <!-- Category name for songs in Spanish [CHAR LIMIT=20] -->
     <string name="share">TODO</string>
 
@@ -19,5 +22,11 @@
 
     <!-- Category detail of songs [CHAR LIMIT=20] -->
     <string name="category_detail">Now Playing</string>
+
+    <!-- Name for artist Ha Ash [CHAR LIMIT=20] -->
+    <string name="artist_haash">Ha Ash</string>
+
+    <!-- Name for artist Matise [CHAR LIMIT=20] -->
+    <string name="artist_matise">Matisse</string>
 
 </resources>
