@@ -3,7 +3,7 @@ package com.galpotechsolutions.musicalstructure;
 /**
  * {@link Detail} represents the detail of the section show to the user.
  * It contains the name of the album, the image of the album,
- * the name of the artist and the name of the song
+ * the name of the artist and the name of the songs
  */
 public class Detail {
     /** The name of the Album */
